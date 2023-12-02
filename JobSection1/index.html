@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>JobSection1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <img src="./img/logo.png" alt="logo">
+            <div class="profile-picture">
+                <img src="./img/avatar.png" alt="Profile Image">
+                <!-- <div class="active-sign"></div> -->
+            </div>
+            <div class="user-info">
+                <h2>Hello Jignesh</h2>
+            </div>
+            <ul>
+                <li class="alist"><a class="active" href="#home"><img src="./img/sidebar-element-3.png" alt="">
+                        Dashboard</a></li>
+                <div class="container">
+                    <div class="topnav">
+                        <div class="job"><img src="./img/sidebar-vuesax-bold-briefcase.png" alt="">
+                            <p>Jobs</p>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <button><img src="./img/sidebar-icon-arrow-down.png" alt=""></button>
+                            </a>
+                        </div>
+
+                        <div id="myLinks">
+                            <a href="#Fi">IT</a>
+                            <a href="#Fi">Mechanical</a>
+                            <a href="#Fi">Fi</a>
+                        </div>
+                    </div>
+                    <div class="topnav">
+                        <div class="profile">
+                            <img src="./img/sidebar-profile.png" alt="">
+                            <p>Profile</p>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction2()">
+                                <button><img src="./img/sidebar-icon-arrow-down.png" alt=""></button>
+                            </a>
+                        </div>
+                        <div id="myLinks2">
+                            <a href="#name">NAme</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#about">Developer</a>
+                        </div>
+
+                    </div>
+                    <div class="topnav">
+                        <div class="settings">
+                            <img src="./img/sidebar-setting-2.png" alt="settings">
+                            <p>Settings</p>
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction3()">
+                                <button><img src="./img/sidebar-icon-arrow-down.png" alt=""></button>
+                            </a>
+                        </div>
+                        <div id="myLinks3">
+                            <a href="#news">News</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#about">About</a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </ul>
+            <div class="invite-friend">
+                <div class="content1">
+                    <h2>Invite Friends</h2>
+                    <p>Invite your friends and get referrel bonus from us.</p>
+                    <button>Invite Now</button>
+                </div>
+            </div>
+        </div>
+        <!-- // top section -->
+        <div class="topsection">
+            <div class="maintopnav">
+                <div class="search-container">
+                    <button> <img src="./img/navbar-input-text-field-input-icons.png" alt="Search Icon"
+                            class="search-icon">
+                    </button>
+                    <input type="text" class="search-input" placeher="" id="randomPlaceher">
+                </div>
+                <div class="rightnav">
+                    <a href="#"><img src="./img/navbar-icon.png" alt="Bell"></a>
+                    <a href="#"><img src="./img/navbar-icon-email.png" alt="Bell"></a>
+                    <div class="user-profile">
+                        <div class="profile-header">
+                            <img src="./img/avatar.png" alt="User Profile Picture" class="'user-profile-pic">
+                            <span class="username">John Doe</span>
+                            <button class="downarrow"><img src="./img/sidebar-icon-arrow-down.png" alt=""></button>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="#">Profile</a>
+                            <a href="#">Account Settings</a>
+                            <a href="#">Sign Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-row">
+                <div class="arrow-filter">
+                    <button> <b>Date Posted</b> <img src="./img/icon-arrow-down.png" alt="drop down"></button>
+                    <button> <b>Job Type</b> <img src="./img/icon-arrow-down.png" alt="drop down"></button>
+                    <button> <b>Experience Level</b> <img src="./img/icon-arrow-down.png" alt="drop down"></button>
+                    <button> <b>On-site/Remote</b> <img src="./img/icon-arrow-down.png" alt="drop down"></button>
+                    <button> <b>Company</b> <img src="./img/icon-arrow-down.png" alt="drop down"></button>
+                </div>
+                <div class="all-filter">
+                    <button>All Filter</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-section">
+
+            <div class="job-cardanddetails">
+                <div class="job-cards">
+                    <div class="title">
+                        <h3>
+                            Jobs in Dhaka
+                            <b>600 Results</b>
+                        </h3>
+                        <h4>Set Alert
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        </h4>
+                    </div>
+                    <div class="listjob">
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                        <div class="job-info-card">
+                            <img src="./img/company.png" alt="">
+                            <div class="job-info-content">
+                                <h3>Product Designer</h3>
+                                <p><b>Grameenphone</b> Dhaka, Bangladesh</p>
+                                <button>View Jobs</button>
+                            </div>
+                            <div class="bookmark" id="bookmark">
+                                <span id="bookmark-icon">📚</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <button class="pagination-block">1</button>
+                        <button class="pagination-block">2</button>
+                        <button class="pagination-block">3</button>
+                        <button class="pagination-block">4</button>
+                        <button class="pagination-block">5</button>
+                        <button class="pagination-block">...</button>
+                        <button class="pagination-block">89</button>
+                    </div>
+                </div>
+                <div class="job-details">
+                    <div class="contentjob">
+                        <div class="companydash">
+                            <div class="aboutjob">
+                                <h2>Product designer</h2>
+                                <p><b>Grameenphone </b>Dhaka, Bangladesh</p>
+                                <p>Posted on 15 May 20 Expire on 30 May 20</p>
+                            </div>
+                            <div class="action">
+                                <a href=""><img src="./img/navbar-icon-email.png" alt=""></a>
+                                <a href=""><img src="./img/navbar-icon-email.png" alt=""></a>
+                                <a href=""><img src="./img/navbar-icon.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="jobbuttons">
+                            <button class="apply">Apply</button>
+                            <button class="savejob">Save Job</button>
+                        </div>
+                    </div>
+                    <div class="recruiter-info-card">
+                        <img src="./img/avatar.png" alt="">
+                        <div class="name">
+                            <h2>Himesh Rehamiya</h2>
+                            <p>
+                                <b>HR Manager</b>
+                                Grameenphone
+                            </p>
+                        </div>
+                        <button>Send Message</button>
+                    </div>
+                    <div class="job-description">
+                        <ul class="para-data">
+                            <b>Responsibilities</b>
+                            <lili>Work on and execute design projects from start to finish while meeting creative and
+                                technical requirements.</li>
+                                <li>Collaborate closely with engineers, researchers, clinicians and product managers to
+                                    iterate
+                                    rapidly.</li>
+                                <li> Work on the entire project lifecycle, from wireframes to detailed specs across
+                                    multiple
+                                    UX
+                                    platforms.</li>
+                                <li> Participate in regular design reviews and other team-wide design efforts; create
+                                    and
+                                    contribute to a great design team culture.</li>
+                                <li>Participate in user-experience research and usability studies.</li>
+                        </ul>
+                        <ul class="para-data">
+                            <b>Qualifications and Skills</b>
+                            <li>BA/BS degree in Design, HCI, CS, or related fi, or equivalent practical experience.
+                                3+ years of relevant UX Design experience in consumer products, medical devices or other
+                                relevant areas.</li>
+                            <li> Portfolio of UX design work.</li>
+                            <li> Proven ability to work across the design process, from developing strong conceptual
+                                foundations
+                                to refining the smallest details with high quality and attention to detail.Preferred
+                                Qualifications and Skills</li>
+                            <li> Experience designing for health-related products (software and/or hardware).</li>
+                            Experience designing for wearable devices.</li>
+                            <li> Experience with prototyping.</li>
+                            <li> Self-motivated and able to prioritize and manage workload and meet critical project
+                                milestones
+                                and deadlines.</li>
+                            <li>Excellent interpersonal, communication, negotiation and collaboration skills.</li>
+                        </ul>
+                        <ul class="para-data">
+                            <b>Preferred Qualifications and Skills</b>
+                            <li> Experience designing for health-related products (software and/or hardware).</li>
+                            <li> Experience designing for wearable devices.</li>
+                            <li> Experience with prototyping.</li>
+                            <li> Self-motivated and able to prioritize and manage workload and meet critical project
+                                milestones
+                            <li> and deadlines.</li>
+                            <li> Excellent interpersonal, communication, negotiation and collaboration skills.</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="company-info-card">
+                        <div class="companydata">
+                            <img src="./img/avatar.png" alt="">
+                            <div>
+                                <h3>Grameenphone Ltd.</h3>
+                                <p>Telecommunications <b>6,424 employees</b> Actively Hiring</p>
+                            </div>
+                            <button>View Page</button>
+                        </div>
+                        <div class="aboutcompany">
+                            <p>The right and contemporary use of technology is key to the progress of a nation. Keeping
+                                this in mind, Grameenphone always brings future-proof technology in order to facilitate
+                                your progress. The possibilities in this new world are immense and someone as bright as
+                                you should be the forerunner in leading the change... see more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

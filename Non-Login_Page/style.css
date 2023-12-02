@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1200px;
+    /* background-color: chartreuse; */
+}
+
+.non-login {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    padding: 24px 144px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    flex-shrink: 0;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    flex: 1 0 0;
+}
+
+.right-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.right-nav .log {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--secondary-5-workd-main, #0049FC);
+    color: var(--dark-text-primary, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.candidatesignup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: var(--secondary-5-workd-main, #0049FC);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    border: 1px solid var(--secondary-5-workd-state-contained-hover-background, rgba(0, 73, 252, 0.64));
+    background: var(--light-background-transparent, rgba(255, 255, 255, 0.00));
+    cursor: pointer;
+}
+
+.full-logo {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    width: 221.625px;
+    height: 72px;
+}
+
+.full-logo img {
+    display: flex;
+    width: 72px;
+    height: 72px;
+    padding: 11.813px 8.232px 11.25px 7.875px;
+    flex-shrink: 0;
+    border-radius: 128px;
+}
+
+.full-logo h1 {
+    width: 154.125px;
+    flex-shrink: 0;
+}
+
+menu {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    flex-direction: row;
+    margin-right: 400px;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--light-background-transparent, rgba(255, 255, 255, 0.00));
+}
+
+.jobs button img {
+    cursor: pointer;
+}
+
+.jobs button {
+    color: var(--light-text-primary, #1C1C1E);
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+.for-employers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background: var(--light-background-transparent, rgba(255, 255, 255, 0.00));
+}
+
+.for-employers button {
+    color: var(--light-text-primary, #1C1C1E);
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+.for-employers button img {
+    cursor: pointer;
+}
+
+.mainsection {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    gap: 5px;
+    position: relative;
+    bottom: 750px;
+    flex-shrink: 0;
+}
+
+.non-login-image {
+    width: 844px;
+    height: 785px;
+    flex-shrink: 0;
+    background-color: transparent;
+    z-index: 0;
+}
+
+.rightloginbox {
+    display: flex;
+    width: 528px;
+    padding: 40px 72px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background-color: var(--light-background-paper, #FFF);
+    z-index: 2;
+
+}
+
+.login {
+    color: var(--black-100, #1C1C1E);
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.options img {
+    display: flex;
+    width: 38px;
+    height: 38px;
+    padding: 3.5px 3.977px 3.5px 3.5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: var(--light-background-default, #FAFAFA);
+    cursor: pointer;
+}
+
+.options2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.login2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.inputfield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.email {
+    display: flex;
+    padding: 13px 8px 11px 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--light-others-outline-border-line, rgba(28, 28, 30, 0.48));
+    background-color: var(--light-background-transparent, rgba(255, 255, 255, 0.00));
+}
+
+.email input {
+    color: var(--light-text-secondary, rgba(28, 28, 30, 0.72));
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    width: 100%;
+}
+
+.email input:focus {
+    outline: none;
+}
+
+/* .password {
+    display: flex;
+    padding: 13px 8px 11px 8px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid var(--light-others-outline-border-line, rgba(28, 28, 30, 0.48));
+    background-color: var(--light-background-transparent, rgba(255, 255, 255, 0.00));
+}
+
+.password input {
+    color: var(--light-text-secondary, rgba(28, 28, 30, 0.72));
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+    width: 100%;
+}
+
+.password input:focus {
+    outline: none;
+} */
+
+.forgotpassword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    color: var(--secondary-5-workd-main, #0049FC);
+}
+
+.rememberme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.r {
+    display: flex;
+    align-items: center;
+    flex: 1 0 0;
+    gap: 9px;
+}
+
+.r input {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.r p {
+    color: var(--light-text-primary, #1C1C1E);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.forgotpassword button {
+    border: none;
+    color: var(--secondary-5-workd-main, #0049FC);
+    background-color: transparent;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.loginbutton {
+    display: flex;
+    padding: 10px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: var(--secondary-5-workd-main, #0049FC);
+    color: var(--dark-text-primary, #FFF);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.signup i {
+    color: var(--light-text-primary, #1C1C1E);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.signup button {
+    display: flex;
+    padding: 4px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    color: var(--primary-main, #6836DD);
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.panel {
+    display: flex;
+    position: relative;
+    margin: 0 250px;
+    bottom: 850px;
+    padding: 40px 72px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    border-radius: 24px;
+    background: var(--light-background-paper, #FFF);
+    box-shadow: 4px 16px 32px 0px rgba(0, 0, 0, 0.04);
+    z-index: 2;
+}
+
+.panel h2 {
+    color: var(--black-100, #1C1C1E);
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.companies {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.companies img {
+    width: 128px;
+    height: 96px;
+    border-radius: 8px;
+    background-color: var(--logo-bkash, url(<path-to-image>), lightgray 50% / contain no-repeat);
+}
+
+.bg {
+    width: 100%;
+    height: 960px;
+    z-index: -1;
+
+}
+
+.oval {
+    position: absolute;
+    width: 389px;
+    height: 402.848px;
+    flex-shrink: 0;
+    border-radius: 402.848px;
+    opacity: 0.1241;
+    background: #804DFF;
+    top: 700px;
+    right: 20px;
+    filter: blur(67.95704650878906px);
+    z-index: 2;
+}
+
+.ovalbig {
+    position: absolute;
+    border-radius: 1346.278px;
+    opacity: 0.6222;
+    background: #FFF;
+    filter: blur(67.95704650878906px);
+    top: 200px;
+    width: 900px;
+    height: 900px;
+    flex-shrink: 0;
+    right: 350px;
+    z-index: 1;
+}
